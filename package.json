@@ -1,0 +1,31 @@
+{
+  "name": "vaultwarden-academic-replica",
+  "version": "1.0.0",
+  "description": "Fidelity academic replica of Vaultwarden / Bitwarden with Zero-Knowledge Cryptography and Web Vault",
+  "main": "server/dist/index.js",
+  "scripts": {
+    "install:all": "npm.cmd install && cd server && npm.cmd install && cd ../client && npm.cmd install && cd ..",
+    "dev:server": "cd server && npm.cmd run dev",
+    "dev:client": "cd client && npm.cmd run dev",
+    "dev": "concurrently \"npm.cmd run dev:server\" \"npm.cmd run dev:client\"",
+    "build:client": "cd client && npm.cmd run build",
+    "build:server": "cd server && npm.cmd run build",
+    "build": "npm.cmd run build:client && npm.cmd run build:server",
+    "start": "node server/dist/index.js",
+    "test": "cd server && npm.cmd test",
+    "test:e2e": "cd server && npm.cmd run test:e2e"
+  },
+  "keywords": [
+    "vaultwarden",
+    "bitwarden",
+    "zero-knowledge",
+    "cryptography",
+    "password-manager",
+    "academic-project"
+  ],
+  "author": "Academic Project",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
