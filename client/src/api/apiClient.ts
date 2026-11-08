@@ -189,3 +189,4 @@ export class ApiClient {
     return this.request('/academic/crypto-specs');
   }
 }
+

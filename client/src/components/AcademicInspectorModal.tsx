@@ -395,3 +395,4 @@ export const AcademicInspectorModal: React.FC<AcademicInspectorModalProps> = ({ 
     </div>
   );
 };
+

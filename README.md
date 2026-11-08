@@ -137,3 +137,4 @@ No teste automatizado [`server/test/e2e.test.ts`](file:///c:/Users/Home/Document
 
 ---
 *Projeto desenvolvido para fins acadêmicos e de pesquisa científica.*
+

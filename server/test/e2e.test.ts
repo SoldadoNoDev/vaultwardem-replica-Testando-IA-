@@ -164,3 +164,4 @@ test('End-to-End Vaultwarden Academic Flow & Zero-Knowledge Verification', async
 
   console.log('🎉 ZERO-KNOWLEDGE PROOF CONFIRMED: 0% data leakage to SQLite database!');
 });
+

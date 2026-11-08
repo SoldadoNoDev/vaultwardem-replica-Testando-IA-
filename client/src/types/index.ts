@@ -110,3 +110,4 @@ export interface PasswordStrengthResult {
   entropy: number;
   feedback: string[];
 }
+

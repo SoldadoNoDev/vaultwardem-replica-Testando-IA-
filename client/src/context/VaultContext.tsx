@@ -325,3 +325,4 @@ export const useVault = () => {
   if (!context) throw new Error('useVault must be used within a VaultProvider');
   return context;
 };
+

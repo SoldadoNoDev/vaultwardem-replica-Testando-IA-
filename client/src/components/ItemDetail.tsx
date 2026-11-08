@@ -514,3 +514,4 @@ export const ItemDetail: React.FC<ItemDetailProps> = ({ onEditItem }) => {
     </main>
   );
 };
+

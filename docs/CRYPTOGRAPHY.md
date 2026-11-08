@@ -116,3 +116,4 @@ Classificação do sistema:
 - $28 \le H < 45$ bits: **Fraca**
 - $45 \le H < 65$ bits: **Boa**
 - $H \ge 65$ bits: **Excelente**
+

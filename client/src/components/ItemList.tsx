@@ -181,3 +181,4 @@ export const ItemList: React.FC<ItemListProps> = ({ onOpenNewItem }) => {
     </section>
   );
 };
+

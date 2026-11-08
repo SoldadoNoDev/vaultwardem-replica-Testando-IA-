@@ -264,3 +264,4 @@ export const Sidebar: React.FC<SidebarProps> = ({ onOpenFolderModal }) => {
     </aside>
   );
 };
+

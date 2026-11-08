@@ -63,3 +63,4 @@ export function initDatabase() {
     CREATE INDEX IF NOT EXISTS idx_folders_user ON folders(user_id);
   `);
 }
+

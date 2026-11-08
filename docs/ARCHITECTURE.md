@@ -104,3 +104,4 @@ O banco de dados SQLite armazena única e exclusivamente dados criptografados:
    - A referência a `UserSymmetricKey` e `MasterKey` é sobrescrita para `null`.
    - O coletor de lixo (Garbage Collector) expurga o material da memória RAM.
    - Mesmo que um invasor tenha acesso físico ao navegador aberto, nada pode ser decifrado sem reintroduzir a Senha Mestra.
+

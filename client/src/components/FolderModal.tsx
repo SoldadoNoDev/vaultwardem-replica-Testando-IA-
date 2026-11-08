@@ -104,3 +104,4 @@ export const FolderModal: React.FC<FolderModalProps> = ({ folderId, onClose }) =
     </div>
   );
 };
+

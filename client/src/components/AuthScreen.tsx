@@ -366,3 +366,4 @@ export const AuthScreen: React.FC = () => {
     </div>
   );
 };
+

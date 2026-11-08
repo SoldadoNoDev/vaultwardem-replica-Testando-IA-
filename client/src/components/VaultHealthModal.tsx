@@ -228,3 +228,4 @@ export const VaultHealthModal: React.FC<VaultHealthModalProps> = ({ onClose, onS
     </div>
   );
 };
+

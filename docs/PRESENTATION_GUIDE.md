@@ -52,3 +52,4 @@ Este guia foi elaborado para apoiar a apresentação do projeto perante bancas a
 
 ### P4: "O gerador de senhas e o TOTP usam bibliotecas externas opacas?"
 > **Resposta:** Não. Todo o pipeline criptográfico foi implementado diretamente sobre a **Web Crypto API nativa do W3C (`window.crypto.subtle`)**, incluindo o cálculo de HMAC-SHA1 e o truncamento dinâmico da RFC 6238 para o TOTP, e `crypto.getRandomValues` para geração de números aleatórios de grau criptográfico.
+
